@@ -12,7 +12,8 @@ app.use(cors({
   origin: [
     'http://localhost:8080',
     'http://127.0.0.1:8080',
-    'http://backend'
+    'http://backend',
+    'https://tonfrontend.vercel.app',
   ],
   methods: ['GET', 'POST', 'OPTIONS'],
   allowedHeaders: ['Content-Type']
