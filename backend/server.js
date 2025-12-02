@@ -13,7 +13,7 @@ app.use(cors({
     'http://localhost:8080',
     'http://127.0.0.1:8080',
     'http://backend',
-    'https://tonfrontend.vercel.app',
+    'https://tp-devops-test-1s6c5qscz-ayas-projects-48fbc321.vercel.app/'
   ],
   methods: ['GET', 'POST', 'OPTIONS'],
   allowedHeaders: ['Content-Type']
