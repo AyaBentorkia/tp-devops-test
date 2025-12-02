@@ -1,9 +1,15 @@
 const express = require('express');
 const cors = require('cors');
+const { Pool } = require('pg');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-
+const pool = new Pool({
+    connectionString:`postgresql://tp_devops_db_user:MQ91ypW5RDZcwvWkGHFqqVw1SLbjWPKE@dpg-d4nbgmm3jp1c73aiso5g-a.oregon-postgres.render.com/tp_devops_db` , 
+    ssl: {
+        rejectUnauthorized: false // Requis par Render pour les connexions SSL
+    }
+});
 // Permettre JSON dans le body
 app.use(express.json());
 
