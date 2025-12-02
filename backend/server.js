@@ -26,7 +26,7 @@ const allowedOrigins = [
     'http://127.0.0.1:8080',
     'http://backend', // Pour Docker Compose local
     // Ajoutez l'URL temporaire Vercel, juste au cas où
-    'https://tp-devops-test-1s6c5qscz-ayas-projects-48fbc321.vercel.app' 
+    'https://tp-devops-test-1s6c5qscz-ayas-projects-48fbc321.vercel.app/' 
 ];
 
 if (ALLOWED_ORIGIN) {
